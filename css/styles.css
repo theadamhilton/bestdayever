@@ -1,0 +1,372 @@
+/* tree section */
+
+#tree {
+    background-image: linear-gradient(to bottom, #00FA9A, green);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    width: 45%;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+#tree td {
+    border: 1px solid green;
+    background-image: linear-gradient(to bottom, #00FA9A, green);
+    z-index: 2;
+}
+
+#tree table, 
+#tree-branch table, 
+#tree-branch-2 table { 
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+#tree-branch,
+#tree-branch-2 {
+    position: absolute;
+    left: 5%;
+    top: 33%;
+    width: 70px;
+    height: 100px;
+    border: 1px solid #B5651D;
+    background-color: #B5651D;
+    padding: 5px;
+    z-index: 1;
+}
+
+#tree-branch td,
+#tree-branch-2 td {
+    border-top: 1px dashed rgba(240, 164, 64, 0.50);
+    transform: rotate(-90deg);
+}
+
+#tree-branch-2 { left: 20%; }
+#tree-branch-2 td { transform: rotate(90deg); }
+
+/* flowers section */
+
+#flowers {
+    position: absolute;
+    background-image: repeating-linear-gradient(pink, #FC6C85, transparent);
+    top: 43%;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+#circle::before {
+    content: "";
+    background-image: linear-gradient(pink, #FC6C85, transparent);
+    border-top: none;
+    transform: skew(-10deg, -10deg);
+    left: 79%;
+    top: 46.5%;
+    width: 28%;
+    height: 68px;
+}
+
+#circle {
+    background-color: transparent;
+    border-right: none;
+    left: 1%;
+    top: -1.5%;
+    width: 11%;
+    height: 90px;
+}
+
+#circle::after {
+    content: "";
+    background-image: linear-gradient(pink, #FC6C85);
+    left: 5%;
+    top: -58%;
+    width: 30%;
+    height: 100px;
+    transform: rotate(-60deg);
+}
+
+#circle-2::before {
+    content: "";
+    background-image: linear-gradient(pink, #FC6C85, transparent);
+    border-bottom: none;
+    left: -16%;
+    top: -40.5%;
+    width: 27%;
+    height: 65px;
+    z-index: 2;
+    transform: rotate(-45deg);
+}
+
+#circle-2 {
+    background-image: linear-gradient(pink, #FC6C85, transparent);
+    border-right: none;
+    left: 12%;
+    top: 1.5%;
+    width: 11%;
+    height: 90px;
+    z-index: 2;
+}
+
+#circle-2::after {
+    left: 77%;
+    top: -34.5%;
+    width: 30%;
+    height: 90px;
+    z-index: 2;
+    transform: rotate(75deg);
+    border-bottom: none;
+}
+
+#circle-3::before {
+    background-image: linear-gradient(#FC6C85, transparent);
+    left: 22%;
+    top: 58.5%;
+    width: 24%;
+    height: 70px;
+    transform: rotate(45deg);
+}
+
+#circle-3 {
+    background-color: transparent;
+    right: 1%;
+    top: 1.5%;
+    width: 11%;
+    height: 90px;
+    border-right: none;
+}
+
+#circle-3::after {
+    background-image: linear-gradient(pink, #FC6C85);
+    left: 34%;
+    top: -54.5%;
+    width: 25%;
+    height: 90px;
+}
+
+#circle-4::before {
+    content: "";
+    background-image: linear-gradient(transparent, #FC6C85);
+    left: 60%;
+    top: 45.5%;
+    width: 25%;
+    height: 75px;
+    transform: rotate(-60deg);
+    border-right: none;
+}
+
+#circle-4 {
+    background-color: transparent;
+    right: 12%;
+    top: 1.5%;
+    width: 11%;
+    height: 90px;
+    border-right: none;
+}
+
+#circle-4::after {
+    left: -16%;
+    top: -40.5%;
+    width: 27%;
+    height: 90px;
+    transform: rotate(-30deg);
+}
+
+/* baby section */
+
+#baby-head {
+    border: 1px solid #B5651D;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    top: 10%;
+    z-index: 10;
+}
+
+#hair {
+    background-color: transparent;
+    border-top: 4px solid #000;
+    position: absolute;
+    left: 35%;
+    top: -10%;
+    width: 22.5%;
+    height: 20px;
+    border-radius: 100%;
+    transform: rotate(90deg);
+    z-index: 11;
+}
+
+#left-eyebrow { left: 22%; }
+#right-eyebrow { right: 22%; }
+#left-eye { 
+    left: 20%;
+}
+
+#left-eye:hover,
+#right-eye:hover,
+#left-iris:hover,
+#right-iris:hover {
+    display: none;
+}
+#right-eye { right: 20%; }
+#left-iris { left: 25%; }
+#right-iris { right: 25%; }
+
+#nose {
+    background-color: transparent;
+    border-top: 2px solid #B5651D;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    width: 10.5%;
+    height: 20px;
+    border-radius: 100%;
+    z-index: 11;
+}
+
+#smile {
+    position: absolute;
+    background-color: transparent;
+    border-bottom: 2px solid #B5651D;
+    left: 30%;
+    top: 70%;
+    width: 40%;
+    border-radius: 80%;
+    height: 15px;
+    z-index: 12;
+}
+
+#neck {
+    top: 13%;
+    z-index: 9;
+}
+
+#tie {
+    background: transparent;
+    border-bottom: 5px solid #FFF;
+    border-radius: 80%;
+    position: absolute;
+    left: 12%;
+    top: 87.5%;
+    width: 75%;
+    height: 25px;
+    z-index: 3;
+}
+
+#baby-body {
+    background-color: #FFCC99;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    position: absolute;
+    left: 25%;
+    top: 33%;
+    width: 50%;
+    height: 600px;
+    z-index: 2;
+}
+
+#baby-bottom {
+    background-color: #000;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    top: 86%;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+}
+
+#left-cloud-shirt {
+    left: 22.5%;
+    top: 30%;
+    border-top-left-radius: 55%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 10px;
+}
+
+#right-cloud-shirt {
+    right: 22.5%;
+    top: 30.08%;
+    border-top-right-radius: 55%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 10px;
+}
+
+#cloud-left::before,
+#cloud-left::after, 
+#cloud-right::before, 
+#cloud-right::after {
+    content: "";
+    width: 30%;
+    height: 70px;
+}
+
+#cloud-left { animation-name: cloud-nine-reverse; }
+
+@keyframes cloud-nine-reverse {
+    0% { left: 2%; top: 47.5%; }
+    100% { left: 18%; top: 47.5%; }
+}
+
+#cloud-left::after { right: 3%; }
+#cloud-right::before { left: 1%; }
+#cloud-right::after { right: 4%; }
+
+#cloud-right {
+    right: 8%;
+    animation-name: cloud-nine;
+}
+
+@keyframes cloud-nine {
+    0% { left: 14%; top: 20%; }
+    100% { left: 2%; top: 20%; }
+}
+
+#belly-button {
+    background-color: transparent;
+    border-top: 2px solid #B5651D;
+    position: absolute;
+    left: 49%;
+    top: 62%;
+    width: 1.5%;
+    height: 20px;
+    border-radius: 100%;
+    z-index: 3;
+    transform: rotate(180deg);
+}
+
+#pants {
+    background-color: navy;
+    position: absolute;
+    left: 25%;
+    top: 67%;
+    width: 50%;
+    height: 200px;
+    z-index: 3;
+}
+
+#left-leg {
+    transform: rotate(15deg);
+    left: 25%;
+}
+
+#right-leg {
+    transform: rotate(350deg);
+    left: 55%;
+}
+
+#left-foot {
+    left: 42.5%;
+    bottom: 1.10%;
+    height: 85px;
+    z-index: 4;
+}
+
+#right-foot {
+    left: 47.5%;
+    bottom: 2%;
+    height: 87.5px;
+    z-index: 3;
+}

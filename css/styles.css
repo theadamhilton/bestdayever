@@ -130,7 +130,7 @@
 
 #circle-3 {
     background-color: transparent;
-    right: 1%;
+    right: 0;
     top: 1.5%;
     width: 11%;
     height: 90px;
@@ -171,6 +171,16 @@
     width: 27%;
     height: 90px;
     transform: rotate(-30deg);
+}
+
+#circle-5 {
+    background-image: linear-gradient( #FC6C85, #FFB7C5 );
+    opacity: 0.5;
+    right: 7%;
+    top: 0%;
+    width: 7%;
+    height: 35px;
+    transform: rotate(-60deg);
 }
 
 /* baby section */

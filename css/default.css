@@ -17,7 +17,8 @@ body {
 #flowers > #circle-3,
 #circle-3::before, #circle-3::after,
 #flowers > #circle-4,
-#circle-4::before, #circle-4::after {
+#circle-4::before, #circle-4::after,
+#circle-5 {
     border: 2px solid hotpink;
     border-left: none;
     border-radius: 70%;

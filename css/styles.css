@@ -218,6 +218,7 @@
 #right-iris:hover {
     display: none;
 }
+
 #right-eye { right: 20%; }
 #left-iris { left: 25%; }
 #right-iris { right: 25%; }
